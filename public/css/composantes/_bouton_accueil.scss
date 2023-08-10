@@ -1,0 +1,20 @@
+// Le bouton retour à l'accueil
+.retour_accueil {
+    margin: 2rem 5rem;
+    text-align: right;
+
+    a {
+        color: black;
+        text-decoration: none;
+        padding: 0.5em 1em;
+        background-color: lightgreen;
+        transition: .2s all;
+
+        &:hover {
+            color: darkgreen;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            background-color: rgb(255, 255, 255);
+        }
+    }
+}

@@ -1,0 +1,67 @@
+// Les media screen pour les sections de la page d'accueil et films.chercher
+@media screen and (max-width: 1700px) {
+    section {
+        grid-template-columns: repeat(3, 500px);
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    section {
+        grid-template-columns: repeat(3, 375px);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    section {
+        grid-template-columns: repeat(2, 500px);
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    section {
+        grid-template-columns: repeat(2, 375px);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    section {
+        grid-template-columns: 500px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    section {
+        grid-template-columns: 375px;
+    }
+}
+
+// Les media screen pour la sectiona de la page films.show
+@media screen and (max-width: 2000px) {
+    section.un_film {
+        grid-template-columns: repeat(2, 800px);
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    section.un_film {
+        grid-template-columns: repeat(2, 600px);
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    section.un_film {
+        grid-template-columns: repeat(2, 400px);
+    }
+}
+
+@media screen and (max-width: 850px) {
+    section.un_film {
+        grid-template-columns: 500px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    section.un_film {
+        grid-template-columns: 375px;
+    }
+}

@@ -1,0 +1,36 @@
+// La page films.show
+
+.titre_un_film {
+    margin-top: 0;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 1px 1px 3px black;
+    background-color: #171d25;
+}
+
+.interface {
+    justify-content: left;
+    margin-left: 2rem;
+
+    .un_film {
+        max-width: 1000px;
+        background-color: #171d25;
+
+        img {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .info_un_film {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            p {
+                margin: .2rem;
+                color: lightgray;
+            }
+        }
+    }
+}

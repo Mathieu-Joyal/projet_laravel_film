@@ -1,0 +1,34 @@
+body {
+    background-color: #171d25;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+
+}
+
+.interface {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+// Entête
+@import "sections/_header.scss";
+
+// Main
+@import "sections/_main.scss";
+
+// La page films.show
+@import "pages/_films_show.scss";
+
+// La page films.chercher
+@import "pages/_films_chercher.scss";
+
+//Bouton accueil
+@import "composantes/_bouton_accueil.scss";
+
+// Footer
+@import "sections/_footer.scss";
+
+// Tous les médias screen
+@import "_media_screen";

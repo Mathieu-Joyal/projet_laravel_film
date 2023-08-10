@@ -1,0 +1,13 @@
+// Section pied de page
+footer {
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+    justify-content: center;
+    background-color: #0e1216;
+    height: 150px;
+
+    p {
+        color: lightgray;
+    }
+}

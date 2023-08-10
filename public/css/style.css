@@ -1,0 +1,189 @@
+body {
+  background-color: #171d25;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.interface {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  background-image: url("../img/header_background.jpg");
+  background-size: cover;
+  height: 400px;
+  background-position: center;
+  position: relative;
+}
+header h1 {
+  margin-top: 0;
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  text-shadow: 1px 1px 3px black;
+}
+header nav {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+header nav .soumettre {
+  cursor: pointer;
+}
+
+section {
+  display: grid;
+  gap: 1.5em;
+  grid-template-columns: repeat(4, 400px);
+}
+section article {
+  background-color: whitesmoke;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  position: relative;
+  box-shadow: 0 0 5px 5px rgb(80, 0, 80), 0 0 5px 5px white;
+}
+section article h2 {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  background-color: rgba(100, 100, 100, 0.8);
+  padding: 0.25em 0;
+}
+section article .article_infos {
+  background-color: rgba(100, 100, 100, 0.8);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+section article .article_infos p {
+  margin: 0.2rem;
+  color: lightgray;
+}
+
+.titre_un_film {
+  margin-top: 0;
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  text-shadow: 1px 1px 3px black;
+  background-color: #171d25;
+}
+
+.interface {
+  justify-content: left;
+  margin-left: 2rem;
+}
+.interface .un_film {
+  max-width: 1000px;
+  background-color: #171d25;
+}
+.interface .un_film img {
+  width: 100%;
+  margin: 0 auto;
+}
+.interface .un_film .info_un_film {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.interface .un_film .info_un_film p {
+  margin: 0.2rem;
+  color: lightgray;
+}
+
+.empty {
+  width: 100%;
+  text-align: center;
+  color: lightgray;
+}
+
+.retour_accueil {
+  margin: 2rem 5rem;
+  text-align: right;
+}
+.retour_accueil a {
+  color: black;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  background-color: lightgreen;
+  transition: 0.2s all;
+}
+.retour_accueil a:hover {
+  color: darkgreen;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  background-color: rgb(255, 255, 255);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  margin-top: 4rem;
+  justify-content: center;
+  background-color: #0e1216;
+  height: 150px;
+}
+footer p {
+  color: lightgray;
+}
+
+@media screen and (max-width: 1700px) {
+  section {
+    grid-template-columns: repeat(3, 500px);
+  }
+}
+@media screen and (max-width: 1550px) {
+  section {
+    grid-template-columns: repeat(3, 375px);
+  }
+}
+@media screen and (max-width: 1200px) {
+  section {
+    grid-template-columns: repeat(2, 500px);
+  }
+}
+@media screen and (max-width: 1050px) {
+  section {
+    grid-template-columns: repeat(2, 375px);
+  }
+}
+@media screen and (max-width: 800px) {
+  section {
+    grid-template-columns: 500px;
+  }
+}
+@media screen and (max-width: 550px) {
+  section {
+    grid-template-columns: 375px;
+  }
+}
+@media screen and (max-width: 2000px) {
+  section.un_film {
+    grid-template-columns: repeat(2, 800px);
+  }
+}
+@media screen and (max-width: 1700px) {
+  section.un_film {
+    grid-template-columns: repeat(2, 600px);
+  }
+}
+@media screen and (max-width: 1250px) {
+  section.un_film {
+    grid-template-columns: repeat(2, 400px);
+  }
+}
+@media screen and (max-width: 850px) {
+  section.un_film {
+    grid-template-columns: 500px;
+  }
+}
+@media screen and (max-width: 550px) {
+  section.un_film {
+    grid-template-columns: 375px;
+  }
+}/*# sourceMappingURL=style.css.map */
